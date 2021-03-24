@@ -2,9 +2,9 @@
 const express = require('express')
 const mongoose = require('mongoose')
 const cors = require('cors')
-//const bodyParser = require('body-parser')
+const bodyParser = require('body-parser')
 const Student = require('./models/Students')
-const Students = require('./models/Students')
+
 const app = express()
 //db connections
 mongoose.Promise = global.Promise;
